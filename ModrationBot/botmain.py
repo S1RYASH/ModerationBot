@@ -10,7 +10,7 @@ class MyBot(commands.Bot):
 
     async def setup_hook(self):
 
-        self.db = await asyncpg.create_pool(dsn= f"postgres://kishore:9024155629@3.7.241.46:5432/pg_mod")
+        self.db = await asyncpg.create_pool(dsn= f"postgres://XXX:XXX@3.7.241.46:5432/pg_mod")
         print("Connection to db DONE!")
         guilds = await self.db.fetch("SELECT * FROM guilds")
         self.data = { guild['id'] : dict(guild) for guild in guilds }
