@@ -1,0 +1,25 @@
+#discord lib
+discord.py
+#databse
+asyncpg
+#leveling
+easy_pil
+
+numerize
+
+beautifulsoup4
+#afk 
+matplotlib
+# ticket 
+chat_exporter
+#in Owner.py for table in txt
+tabulate
+# TTS , 
+gtts
+# help 
+discord-pretty-help
+
+dotenv
+
+google-generativeai
+IPython
